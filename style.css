@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: none;
+}
+body{
+    background-color: rgb(199, 156, 156)!important; 
+}
+.container{
+    margin-top: 50px;
+}
+.myName{
+    display: inline;
+    font-weight: 700;
+    font-size: 82px;
+    color: maroon;
+}
+.myImg{
+    float: right;
+    display: inline;
+    
+}
+.main-section{
+    background: linear-gradient(95deg,rgb(206, 7, 7) 0%, rgb(240, 91, 91) 80%);
+    margin: 150px auto;
+    overflow:hidden;
+    padding: 40px;
+}
+/* .frame-div{
+}  */
+
+.info-div{
+    /* color: red; */
+    display: inline;
+    width: 20%;
+text-align: center;
+}
+.info-div > h2{
+    margin-top: 70px;
+}
+.info-div > p{
+    margin-top: 20px;
+    
+}
+.workHead{
+    color: rgb(206, 7, 7);
+    text-align: center;
+    font-size: 42px;
+    margin-top: -100px;
+}
+.workHeadSpan{
+    font-size: 62px;
+    font-weight: 700;  
+}
+.works-moosewala{
+    padding: 40px;
+}
+
+footer{
+    color: aliceblue;
+    background: linear-gradient(95deg,rgb(206, 7, 7) 0%, rgb(240, 91, 91) 80%);
+    padding: 10px;
+text-align: center;
+
+}
+footer > p > a{
+    color: black;
+}
+footer > p > a:hover{
+    color: darkblue;
+}
